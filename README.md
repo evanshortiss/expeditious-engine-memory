@@ -1,4 +1,4 @@
-expeditious-memory-engine
+expeditious-engine-memory
 =========================
 
 An in memory engine for expeditious. Cache entries are - you guessed it -
