@@ -1,5 +1,6 @@
 expeditious-engine-memory
 =========================
+[![Circle CI](https://circleci.com/gh/evanshortiss/expeditious-engine-memory/tree/master.svg?style=svg)](https://circleci.com/gh/evanshortiss/expeditious-engine-memory/tree/master)
 
 An in memory engine for expeditious. Cache entries are - you guessed it -
 stored in the node.js process memory. This cache engine will lose everything
