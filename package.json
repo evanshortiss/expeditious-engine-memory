@@ -2,7 +2,7 @@
   "name": "expeditious-engine-memory",
   "version": "0.1.0",
   "description": "store expeditious cache entries using process memory",
-  "main": "expeditious-engine-memory",
+  "main": "./expeditious-memory-engine.js",
   "scripts": {
     "test": "npm run lint && npm run unit && npm run coverage",
     "lint": "npm run jshint && npm run linelint",
