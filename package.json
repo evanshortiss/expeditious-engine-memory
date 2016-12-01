@@ -1,6 +1,6 @@
 {
   "name": "expeditious-engine-memory",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "store expeditious cache entries using process memory",
   "main": "./expeditious-memory-engine.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "jshint": "^2.9.2",
-    "linelint": "^1.0.0",
+    "linelint": "~1.0.1",
     "mocha": "^2.5.3",
     "nyc": "^6.6.1",
     "proxyquire": "^1.7.9"

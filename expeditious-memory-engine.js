@@ -105,8 +105,13 @@ module.exports = function () {
    * Delete all cache entries
    * @param  {Function} callback
    */
-  engine.flush = function (callback) {
+  engine.flush = function (ns, callback) {
     data = {};
+
+    if (typeof ns === 'function') {
+      callback = ns;
+      ns = null;
+    }
 
     setImmediate(function () {
       callback(null, null);

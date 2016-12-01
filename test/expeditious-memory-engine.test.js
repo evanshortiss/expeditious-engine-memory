@@ -124,6 +124,22 @@ describe(require('../package.json').name, function () {
         });
       });
     });
+
+    it('should handle new (ns, callback) signature', function (done) {
+      mod.set(TEST_KEY, TEST_VAL, TEST_EXP, function () {
+        mod.flush('ns', function (err) {
+          expect(err).to.be.null;
+
+          mod.keys(function (err, res) {
+            expect(err).to.be.null;
+            expect(res).to.be.an('array');
+            expect(res).to.have.length(0);
+
+            done();
+          });
+        });
+      });
+    });
   });
 
 
