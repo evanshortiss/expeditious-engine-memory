@@ -1,6 +1,6 @@
 {
   "name": "expeditious-engine-memory",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "store expeditious cache entries using process memory",
   "main": "./expeditious-memory-engine.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "author": "Evan Shortiss",
   "license": "MIT",
   "dependencies": {
-    "expeditious": "git+https://github.com/evanshortiss/expeditious"
+    "expeditious": "~1.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
